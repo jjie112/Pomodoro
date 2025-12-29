@@ -28,10 +28,12 @@ export default defineConfig({
     vueDevTools(),
     Fonts({
       google: {
-        families: [{
-          name: 'Roboto',
-          styles: 'wght@100;300;400;500;700;900',
-        }],
+        families: [
+          {
+            name: 'Roboto',
+            styles: 'wght@100;300;400;500;700;900',
+          },
+        ],
       },
     }),
     checker(),
@@ -86,7 +88,7 @@ export default defineConfig({
     }),
     VitePluginRadar({
       analytics: {
-        id: 'G-NH280GKLNL',
+        id: 'G-3MPDYEGBPH',
       },
     }),
   ],
@@ -104,15 +106,7 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('src', import.meta.url)),
     },
-    extensions: [
-      '.js',
-      '.json',
-      '.jsx',
-      '.mjs',
-      '.ts',
-      '.tsx',
-      '.vue',
-    ],
+    extensions: ['.js', '.json', '.jsx', '.mjs', '.ts', '.tsx', '.vue'],
   },
   server: {
     port: 3000,
