@@ -88,7 +88,7 @@ export default defineConfig({
     }),
     VitePluginRadar({
       analytics: {
-        id: 'G-3MPDYEGBPH',
+        id: 'G-8GS9NPJK3M',
       },
     }),
   ],
