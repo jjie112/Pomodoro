@@ -13,7 +13,7 @@ import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Pomodoro/',
+  base: '/jjie112.github.io/',
   plugins: [
     Vue({
       template: { transformAssetUrls },
